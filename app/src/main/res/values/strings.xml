@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Apps</string>
+    <string name="button_text">Click</string>
+    <string name="hello_world">Hello_World</string>
+    <string name="msg">Clap !</string>
+    <string name="test">OUAIS VASY</string>
+    <string name="notification_title">Notification Alert !</string>
+    <string name="notification_desc">Ceci est une notification !</string>
+    <string name="action_settings">Paramètres !</string>
+</resources>

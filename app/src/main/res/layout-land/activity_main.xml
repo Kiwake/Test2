@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        android:id="@+id/notif"
+        android:onClick="Notif_Me"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/hello_world"
+        android:id="@+id/tv_hello_world"
+        android:gravity="center" />
+
+    <Button
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:layout_below="@+id/tv_hello_world"
+        android:onClick="ChangeDate"/>
+
+    <Button
+        android:text="@string/button_text"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_hello_world"
+        android:layout_below="@+id/tv_hello_world"
+        android:onClick="Clickhere"/>
+
+</LinearLayout>
