@@ -3,6 +3,7 @@ package com.example.edwin.ed_mobile;
 import android.app.DatePickerDialog;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,6 +50,16 @@ public class MainActivity extends AppCompatActivity {
         };
         DatePickerDialog dpd = new DatePickerDialog(this, listener, 2016, 11, 07);
         dpd.show();
+    }
+
+    public void Search(View v){
+
+        EditText edit =  (EditText) findViewById(R.id.web_text);
+        String recherche = edit.getText().toString();
+
+        Intent web = new Intent(Intent.ACTION_WEB_SEARCH );
+        web.putExtra(SearchManager.QUERY, recherche);
+        startActivity(web);
     }
 
     public void Notif_Me(View v) {
