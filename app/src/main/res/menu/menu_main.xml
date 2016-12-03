@@ -3,7 +3,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/icone" android:title="titre" android:icon="@drawable/ic_stat_name" app:showAsAction="always" />
     <item android:id="@+id/position" android:title="Localisation" android:icon="@drawable/ic_local" app:showAsAction="always"/>
-    <item android:id="@+id/action_settings" android:title="@string/action_settings" android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/uneentree" android:title="Une entrée" />
-    <item android:id="@+id/marecherche" android:title="Ma Recherche" android:icon="@drawable/ic_search4" app:showAsAction="always"/>
 </menu>
