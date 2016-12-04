@@ -40,7 +40,7 @@
         android:inputType="text"
         android:contentDescription="Adresse WEB"
         android:ems="20"
-        android:hint="Adresse Web"
+        android:hint="@string/web_adress"
         android:id="@+id/web_text"
         android:layout_alignBottom="@+id/button_search"
         android:layout_alignParentLeft="true"
@@ -49,7 +49,7 @@
         android:layout_toStartOf="@+id/button_search" />
 
     <Button
-        android:text="Rechercher"
+        android:text="@string/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_search"
@@ -71,7 +71,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Localise ton cinéma"
+        android:text="@string/locate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_date"

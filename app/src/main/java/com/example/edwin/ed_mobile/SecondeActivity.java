@@ -158,9 +158,9 @@ public class SecondeActivity extends AppCompatActivity {
     public void Notif_DL() {
         int notif_id = 002;
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
-        mBuilder.setContentTitle("Download complete");
+        mBuilder.setContentTitle(getString(R.string.dl_complete));
         mBuilder.setSmallIcon(R.drawable.ic_dl);
-        mBuilder.setContentText("Your download is complete !");
+        mBuilder.setContentText(getString(R.string.complete));
         Notification note = mBuilder.build();
         note.defaults |= Notification.DEFAULT_VIBRATE;
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);

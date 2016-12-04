@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Notif_Myself() {
         int notif_id = 001;
-        Toast.makeText(getApplicationContext(), "Envoyé", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), getString(R.string.sent), Toast.LENGTH_LONG).show();
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setContentTitle(getString(R.string.notification_title));
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             String[] job_str = new String[arr.length()];
             if(arr.length() == 0){
                 job_str = new String[1];
-                job_str[0]= "Télécharger la liste de cinémas";
+                job_str[0]= getString(R.string.dl_cinema);
                 test = 1;
             }
             final JSONObject[] job = new JSONObject[arr.length()];
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
             }
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             final int finalTest = test;
-            builder.setTitle("Choisis ton cinéma :")
+            builder.setTitle(getString(R.string.choose_cinema))
                     .setItems(job_str, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             // The 'which' argument contains the index position
@@ -155,9 +155,6 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                                     Toast.makeText(getApplicationContext(), "x:"+x+" y:"+y+"" , Toast.LENGTH_LONG).show();
-
-
-                            Log.i("TOSt"," "+x + " "+y );
                             Intent local = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:"+x+","+y+""));
                             startActivity(local);
                         }

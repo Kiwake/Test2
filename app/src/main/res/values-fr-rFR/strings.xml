@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="button_text">Cliquez</string>
+    <string name="notification_title">Alerte Notification !</string>
+    <string name="notification_desc">Ceci est une notification !</string>
+    <string name="dl_cinema">Télécharger la liste de cinémas</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="choose_cinema">Choisis ton cinéma :</string>
+    <string name="sent">Envoyé</string>
+    <string name="search">Rechercher</string>
+    <string name="locate">Localise ton cinéma</string>
+    <string name="web_adress">Adresse Web</string>
+    <string name="download">Téléchargement</string>
+    <string name="display">Affichage</string>
+    <string name="dl_complete">Téléchargement terminé</string>
+    <string name="complete">Votre téléchargement est terminé !</string>
 </resources>

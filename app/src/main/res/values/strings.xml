@@ -2,13 +2,18 @@
     <string name="app_name">TOPFILM</string>
     <string name="button_text">Click</string>
     <string name="title">TOPFILM</string>
-    <string name="msg">Clap !</string>
     <string name="notification_title">Notification Alert !</string>
-    <string name="notification_desc">Ceci est une notification !</string>
-    <string name="action_settings">Paramètres !</string>
-    <string name="lst_string">Trouvez les cinémas autour d\'un lieu :</string>
-    <string name="director">Réalisateur</string>
-    <string name="movie">Film</string>
+    <string name="notification_desc">This is a notification !</string>
+    <string name="action_settings">Settings</string>
     <string name="more">Note</string>
-    <string name="dl_cinema">Télécharger la liste de cinémas</string>
+    <string name="dl_cinema">Downlad the list of cinemas</string>
+    <string name="choose_cinema">Choose your cinema :</string>
+    <string name="sent">Sent</string>
+    <string name="search">Search</string>
+    <string name="locate">Locate your cinema</string>
+    <string name="web_adress">Web Adress</string>
+    <string name="download">Download</string>
+    <string name="display">Display</string>
+    <string name="dl_complete">Download complete</string>
+    <string name="complete">Your download is complete !</string>
 </resources>
