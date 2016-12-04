@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
                                 e.printStackTrace();
                             }
 
-                                    Toast.makeText(getApplicationContext(), "x:"+x+" "+y+"" , Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "x:"+x+" y:"+y+"" , Toast.LENGTH_LONG).show();
 
 
                             Log.i("TOSt"," "+x + " "+y );
