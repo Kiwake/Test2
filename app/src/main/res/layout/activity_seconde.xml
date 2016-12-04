@@ -35,7 +35,7 @@
 
     <Button
         android:text="@string/download"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:onClick="Service"
@@ -47,7 +47,7 @@
 
     <Button
         android:text="@string/display"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/affichage"
         android:onClick="AffichageRview"
